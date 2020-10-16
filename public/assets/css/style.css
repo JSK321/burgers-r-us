@@ -1,0 +1,62 @@
+html, body {
+    background-color:tan !important;
+    /* background-image: url("assets/img/burger_background.png") !important; */
+    font-family: "Comic Sans MS", cursive, sans-serif !important;
+}
+
+.burger_logo{
+    text-align:center;
+}
+
+.burgers_r_us{
+    width: 300px;
+    height: auto;
+}
+.burger_box{
+    display: flex;
+    flex-direction: column;
+}
+/* button to eat burger */
+.change-burger{
+    width: 150px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 12px;
+    background-color: wheat;
+}
+/* button to delete burger */
+.delete-burger{
+    width: 150px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 12px;
+    background-color: wheat;
+}
+.form-group{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 12px;
+    background: tomato;
+}
+/* button to add burger */
+.add_button{
+    margin-left: 100px;
+    border-radius: 12px;
+    background-color: wheat;
+}
+/* burgers in list */
+li {
+    padding: 5px;
+    margin: 5px;
+    background:sandybrown;
+    border-radius: 12px;
+  }
+/* removes dots */
+ul {
+    list-style-type: none;
+}
+
+#ca{
+    background-color: wheat;
+    border-radius: 12px;
+}
