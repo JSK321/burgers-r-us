@@ -5,4 +5,7 @@
 		{{#if devoured}}DEVOUR IT!{{else}}Make another to devour!!{{/if}}
 	</button>
 
+	<button class="delete-burger" data-id="{{this.id}}" data-devoured="{{devoured}}">
+		{{#if devoured}}Throw it away!{{else}}Delete{{/if}}
+	</button>
 </li>
